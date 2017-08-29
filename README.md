@@ -5,7 +5,7 @@ Provides docker APIs over http
 ## Example
 
 ```shell
-docker run -p 9999:9999 -v '/var/run/docker.sock:/var/run/docker.sock' docker-api
+docker run -p 9999:9999 -v '/var/run/docker.sock:/var/run/docker.sock' jcollier/docker-http-api
 ```
 
 ## License
